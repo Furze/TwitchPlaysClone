@@ -1,7 +1,7 @@
-package com.github.xorDash.twitchplaysclone;
+package com.github.xordash.twitchplaysclone;
 
-import com.github.xorDash.twitchplaysclone.gba.VisualBoyAdvanceHandler;
-import com.github.xorDash.twitchplaysclone.irc.InternetRelayChatHandler;
+import com.github.xordash.twitchplaysclone.gba.VisualBoyAdvanceHandler;
+import com.github.xordash.twitchplaysclone.irc.InternetRelayChatHandler;
 
 /**
  * @author xor-
@@ -10,7 +10,7 @@ public class TwitchPlaysClone {
 
     /**
      * Initialises and starts VisualBoyAdvanceHandler and InternetRelayChatHandler
-     * @param args
+     * @param args args
      * @throws Exception
      */
     public static void main (String... args)throws Exception{

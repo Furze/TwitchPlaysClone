@@ -1,7 +1,7 @@
-package com.github.xorDash.twitchplaysclone.irc;
+package com.github.xordash.twitchplaysclone.irc;
 
-import com.github.xorDash.twitchplaysclone.gba.GbaKeyEnum;
-import com.github.xorDash.twitchplaysclone.gba.VisualBoyAdvanceHandler;
+import com.github.xordash.twitchplaysclone.gba.GbaKeyEnum;
+import com.github.xordash.twitchplaysclone.gba.VisualBoyAdvanceHandler;
 import jerklib.ConnectionManager;
 import jerklib.Profile;
 import jerklib.Session;

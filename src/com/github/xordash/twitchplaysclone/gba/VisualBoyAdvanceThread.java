@@ -1,11 +1,11 @@
-package com.github.xorDash.twitchplaysclone.gba;
+package com.github.xordash.twitchplaysclone.gba;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by troy on 24/02/14.
+ * @author xor-
  */
 public class VisualBoyAdvanceThread implements Runnable  {
     private static String GAME_FILE = "/home/troy/gba/MetroidFusion.gba";

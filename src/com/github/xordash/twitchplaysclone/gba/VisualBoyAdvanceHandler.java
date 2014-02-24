@@ -1,14 +1,12 @@
-package com.github.xorDash.twitchplaysclone.gba;
+package com.github.xordash.twitchplaysclone.gba;
 
 import java.io.IOException;
-import java.util.Random;
 
 /***
  * @author xor
  ***/
 public class VisualBoyAdvanceHandler {
-    private Random random = new Random();
-    private boolean handleInput = true;
+
 
     /***
      * Create a new thread to run visualBoyAdvance in.
@@ -41,7 +39,7 @@ public class VisualBoyAdvanceHandler {
 
     /***
      * Internal executing of command to send key to VisualBoyAdvance emulator
-     * @param cmd
+     * @param cmd command to execute
      * @throws IOException
      * @throws InterruptedException
      ***/

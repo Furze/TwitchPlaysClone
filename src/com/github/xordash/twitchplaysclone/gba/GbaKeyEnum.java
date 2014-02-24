@@ -1,4 +1,4 @@
-package com.github.xorDash.twitchplaysclone.gba;
+package com.github.xordash.twitchplaysclone.gba;
 
 /**
  * @author xor-
@@ -29,8 +29,8 @@ public enum GbaKeyEnum {
 
     /**
      * Returns true if the param str is a valid GbaKey in the enum
-     * @param str
-     * @return
+     * @param str String to check
+     * @return returns if the string is valid or not
      */
     public static boolean isValidKey(String str){
         for(GbaKeyEnum gbaKeyEnum : GbaKeyEnum.values()){
@@ -44,8 +44,8 @@ public enum GbaKeyEnum {
     }
     /**
      * Returns the key if the param str is a valid GbaKey in the enum
-     * @param str
-     * @return
+     * @param str String to check
+     * @return returns the corresponding GbaKeyEnum or null
      */
     public static GbaKeyEnum getKeyFromString(String str){
         for(GbaKeyEnum gbaKeyEnum : GbaKeyEnum.values()){
