@@ -1,0 +1,26 @@
+Jerklib is an event-driven IRC library that can be used to write an IRC bot/client.
+Author: Jason Davis - mohadib@openactive.org
+Big thanks to Robert O'Connor <robby.oconnor@gmail.com> for all the hard work!
+
+SF Project Page: https://sourceforge.net/projects/jerklib/
+HomePage: http://jerklib.sourceforge.net
+Java Docs: http://jerklib.sourceforge.net/doc/
+
+To run an example use one of the following commands:
+
+This is the simplest example:
+java -cp jerklib.jar jerklib.examples.Example
+
+An example of a bot:
+java -cp jerklib.jar jerklib.examples.jerkbot.jerkbot
+
+There is also a Groovy example (a class written in groovy). To use it download
+groovy from http://dist.groovy.codehaus.org/distributions/groovy-binary-1.5.4.zip
+and unzip it to whereveer, then set up a GROOVY_HOME env. variable pointing to whereever
+you unzipped toand put GROOVY_HOME/bin in your PATH.
+
+To use the script you need to have the source handy and type:
+                          
+1) ant jar
+2) groovy -cp bin/jerklib.jar jerklib/examples/groovy/jerkbot/Jerkbot.groovy
+
