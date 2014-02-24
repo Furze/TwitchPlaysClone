@@ -1,12 +1,12 @@
 TwitchPlays clone
 
-Written for Linux in Java
+Written in Java for Linux
 
 Requires:
 
-	VisualBoyAdvance
-	xdotool
-	jerklib
+	VisualBoyAdvance http://www.romnation.net/srv/emulators/69/gba/Visual-Boy-Advance-v1-7-2-for-Linux.html
+	xdotool http://www.semicomplete.com/projects/xdotool/
+	jerklib http://jerklib.sourceforge.net/
 
-These can all be found with a quick google.
+If you wish to use this with Twitch, you will need to replace JerkLib with a irc library which allows you to use a server password
 
